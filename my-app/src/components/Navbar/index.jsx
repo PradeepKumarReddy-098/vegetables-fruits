@@ -1,14 +1,14 @@
-import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './index.css'
 
 const Navbar = () => {
     return (
         <nav>
-            <span className="Logo"><a href='/' className='logo'>Veggis/Fruits</a></span>
+            <span className="Logo"><Link href='/' className='logo'>Veggis/Fruits</Link></span>
             <div>
-                <a href='/user'>Home</a>
-                <a href='/place-order'>Cart</a>
-                <a href='/track-orders'>Track Order</a>
+                <Link className='Link' to='/user'>Home</Link>
+                <Link className='Link' to='/place-order'>Cart</Link>
+                <Link className='Link' to='/track-orders'>Track Order</Link>
             </div>
         </nav>
     )
@@ -20,9 +20,9 @@ const AdminNavbar = () => {
         <nav>
             <span className="Logo"><a href='/' className='logo'>Veggis/Fruits</a></span>
             <div>
-                <a href='/admin'>Home</a>
-                <a href='/admin/add-product'>Add Product</a>
-                <a href='/admin/orders'>All Orders</a>
+                <Link className='Link' to='/admin'>Home</Link>
+                <Link className='Link' to='/admin/add-product'>Add Product</Link>
+                <Link className='Link' to='/admin/orders'>All Orders</Link>
             </div>
         </nav>
     )

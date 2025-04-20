@@ -22,7 +22,7 @@ nav div{
     justify-content: space-between;
     width:70%;
 }
-a{
+.Link{
     text-decoration: none;
 }
 .logo{

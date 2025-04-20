@@ -1,14 +1,10 @@
 import { useState,useEffect } from "react";
-import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {Navbar} from "../Navbar";
 import ProductCard from "../ProductCard";
 import Banner from '../../assets/Bannermain.jpg'
 import Banner1 from '../../assets/Banner1.jpg'
-import Banner2 from '../../assets/Banner2.jpg'
-import Banner3 from '../../assets/Banner3.jpg'
-import Banner4 from '../../assets/Banner4.jpg'
 import './index.css'
 
 const Home = () => {
