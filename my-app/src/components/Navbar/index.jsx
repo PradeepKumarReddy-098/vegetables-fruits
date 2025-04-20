@@ -4,7 +4,7 @@ import './index.css'
 const Navbar = () => {
     return (
         <nav>
-            <span className="Logo"><Link href='/' className='logo'>Veggis/Fruits</Link></span>
+            <span className="Logo"><Link to='/' className='logo'>Veggis/Fruits</Link></span>
             <div>
                 <Link className='Link' to='/user'>Home</Link>
                 <Link className='Link' to='/place-order'>Cart</Link>
