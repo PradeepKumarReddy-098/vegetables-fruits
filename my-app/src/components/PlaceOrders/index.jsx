@@ -130,7 +130,7 @@ const PlaceOrders = () => {
                 <h1>No Item avaliable to place order.</h1>
                 <p>Go to home page to add itmes <Link to='/'>here</Link>.</p>
             </div>
-            </> 
+            </>
         )
     }
 
