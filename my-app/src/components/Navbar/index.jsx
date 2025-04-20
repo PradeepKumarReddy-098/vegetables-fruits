@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Link className='Link' to='/track-orders'>Track Order</Link>
             </div>
         </nav>
-    )
+    ) 
 
 }
 
